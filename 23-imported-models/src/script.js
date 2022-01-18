@@ -66,9 +66,9 @@ gltfLoader.load(
 
         //FOX Example
         mixer = new THREE.AnimationMixer(gltf.scene)
-        const action = mixer.clipAction(gltf.animations[0])
 
-        //Uncomment to change in between the animations
+        // UNCOMMENT TO CHANGE IN BETWEEN ANIMATIONS
+        const action = mixer.clipAction(gltf.animations[0])
         // const action = mixer.clipAction(gltf.animations[1])
         // const action = mixer.clipAction(gltf.animations[2])
 
